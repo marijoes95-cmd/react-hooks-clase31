@@ -8,6 +8,7 @@ import AdminLayout from '../componentes/AdminLayout'
 import HomePage from '../componentes/HomePage'
 import AboutPage from '../componentes/AboutPage'
 import AdminDashboard from '../componentes/AdminDashboard'
+import HooksPage from '../componentes/HooksPage'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route element={<PublicLayout />}>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/hooks" element={<HooksPage />} />
       </Route>
 
       {/* Rutas administrativas */}
