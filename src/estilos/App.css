@@ -1,0 +1,103 @@
+
+/* DISEÑO PÚBLICO */
+
+header {
+  background-color: #283593;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+header h2 {
+  margin-bottom: 15px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+header a {
+  color: white;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #b3c5ff;
+}
+
+main {
+  padding: 40px;
+  min-height: 65vh;
+}
+
+main h1 {
+  color: #283593;
+  margin-bottom: 20px;
+}
+
+main p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #e2e6f3;
+  text-align: center;
+  padding: 20px;
+}
+
+/* DISEÑO ADMINISTRATIVO */
+
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.admin-layout aside {
+  background-color: #1a237e;
+  color: white;
+  width: 240px;
+  padding: 30px 20px;
+}
+
+.admin-layout aside h2 {
+  margin-bottom: 30px;
+}
+
+.admin-layout aside ul {
+  list-style: none;
+}
+
+.admin-layout aside li {
+  margin-bottom: 20px;
+}
+
+.admin-layout aside a:hover {
+  color: #b3c5ff;
+}
+
+.admin-layout main {
+  flex: 1;
+  padding: 40px;
+}
+
+
+/* BOTÓN DE NAVEGACIÓN */
+
+.btn-navegar {
+  background-color: #283593;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.btn-navegar:hover {
+  background-color: #3949ab;
+}
+
